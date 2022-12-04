@@ -1,0 +1,217 @@
+@media  screen and (max-width: 1050px) {
+    .content-right img{
+        height: 200px;
+    }
+    .pics{
+        width: 240px;
+    }  
+    .home-article1{
+        width: 300px;
+    } 
+}
+@media  screen and (max-width: 950px) {
+    .about-content{
+        width: 400px;
+        margin: 100px -100px;
+        text-align: justify;
+        padding:0px 10px;
+    }
+    .row{
+        margin:20px auto ;
+        flex-direction: column;
+    }
+    .home-article1{
+        width: 80%;
+        text-align: left;
+        margin: 20px;
+    } 
+    .home-article1 img{
+        margin: auto 20px;
+    }
+}
+
+@media  screen and (max-width: 900px){
+    .postimg img{
+        width: 200px;
+    }
+    .contents-left img{
+        width: 290px;
+        
+    }
+}
+
+@media  screen and (max-width: 880px) {
+    .nav-right{
+        text-align: center;
+    }
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .content-right{
+        display: none;
+    }
+    .content{
+        margin:20px auto;
+    }
+    .content-left h1{
+        font-size: 30px;
+    }
+    .about-social{
+        width: 40px;
+    }
+    .about-main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-content{
+        width: 400px;
+        margin: auto 0px;
+        margin-left: 100px;
+    }
+    .about-social{
+        margin: auto 0px;
+        display: inline-flex;
+        align-items: center;
+    }
+    .about-social div{
+        transform: rotate(0deg);
+        margin-left: 20px;
+    }
+
+}
+@media screen and (max-width: 800px){
+    .innerpost{
+        flex-direction:column;
+        align-items: center;
+    }
+    .mainpost{
+        height: 780px;
+    }
+    .contents{
+        flex-direction:column;
+        margin: auto;
+        margin-top: 22px;
+    }
+}
+@media  screen and (max-width: 750px){
+    .home-article img{
+        width: 180px;
+    }
+    .home-article span{
+        padding: 5px 10px;
+        font-size: 12px;
+        color: rgb(31, 151, 155);
+    }
+    .article-content a{
+        font-size: 16px;
+
+    }
+    .pics{
+        width: 200px;
+    } 
+    .about-content{
+        width: 270px;
+        margin-left: 100px;
+    } 
+
+}
+@media  screen and (max-width: 700px){
+    .home-article1 img{
+        width: 200px;
+    }
+}
+@media  screen and (max-width: 650px){
+    .postimg{
+        margin-left: -50px;
+    }
+    .texthead{
+        font-size: 22px;
+    }
+    .postnew form{
+        margin-left: -100px;
+        width: 75vh;
+    }
+}
+@media  screen and (max-width: 600px){
+    .home-article{
+        flex-direction: column;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .home-articles h2{
+        font-size: 24px;
+    }
+    .footer h2{
+        font-size: 22px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+}
+@media  screen and (max-width: 550px){
+    .texthead{
+        font-size: 17px;
+    }
+    .postnew form{
+        margin-left: -80px;
+        width: 55vh;
+    }
+   .postnew form .formrow{
+        flex-direction: column;
+    }
+}
+@media  screen and (max-width: 450px){
+    .pics{
+        width: 130px;
+    } 
+    .about-content{
+        width: 190px;
+        margin-left: 100px;
+    } 
+    .about-social{
+        margin-right: 10px;
+    }
+    .about-content h2{
+        font-size: 20px;
+    }
+    .about-content p{
+        font-size: 12px;
+    }
+    .about-social{
+        width: 130px;
+        margin-right: 10px;
+    }
+}
+@media  screen and (max-width: 430px){
+    .footer h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .postimg img{
+        display: none;
+    }
+    .texthead{
+        font-size: 13px;
+    }
+    .inputdata input,
+    .content-blog textarea{
+    font-size: 11px;
+    }
+    .contents-right h1{
+        font-size: 30px;
+    }
+}
+@media  screen and (max-width: 500px){
+    .form-box input, textarea {
+        width: 66vw;
+    }
+    .contact-content h2 {
+        font-size: 28px;
+    }
+}

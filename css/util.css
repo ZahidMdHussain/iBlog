@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Changa&family=Lobster&family=Roboto&display=swap&family=Courgette&display=swap');
+:root
+{
+    --main-bg-color:brown;
+    --font1:'Baloo Bhaina 2', cursive;
+    --font2:'Roboto', sans-serif;
+    --font3:'Changa', sans-serif;
+    --font4:'Lobster',cursive;
+    --font5:'Courgette', cursive;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.font3{
+    font-family: var(--font3);
+}
+.font4{
+    font-family: var(--font4);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 0px 9px;
+    padding-top: 3px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-family: var(--font1);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+.btn-get{
+    margin-left: 20px;
+    padding: 0px 9px;
+    padding-top: 3px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-family: var(--font1);
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+.btn-get:hover{
+    color: rgb(39, 39, 39);
+    background-color: blanchedalmond;
+}
+.form-input{
+    padding: 0px 7px;
+    padding-top: 3px;
+    font-size: 14px;
+    border: 1.5px solid black;
+    border-radius: 14px;
+    margin: 0 10px;
+    font-family: var(--font1);
+    outline: none;
+}
